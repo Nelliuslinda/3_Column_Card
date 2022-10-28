@@ -1,3 +1,17 @@
+/*Import Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+/*root* -> Declare the colours and fonts to be used */
+:root{
+    --lexend: 'Lexend Deca', sans-serif;
+    --bigshoulder: 'Big Shoulders Display', cursive;
+    --brightorange: hsl(31, 77%, 52%);
+    --darkcyan: hsl(184, 100%, 22%);
+    --verydarkcyan: hsl(179, 100%, 13%);
+    --transparentwhite:  hsla(0, 0%, 100%, 0.75);
+    --verylightgrey: hsl(0, 0%, 95%)
+}
+
 /*Create columns*/
 .col-1, .col-2, .col-3{
     float: left;
@@ -21,4 +35,22 @@
 main{
     margin: 50px;
     padding: 70px;
+}
+
+/*H1*/
+h1{
+    font-family: var(--bigshoulder);
+}
+
+/*p*/
+p{
+    font-family: var(--lexend);
+    font-size: 15px;
+}
+
+/*button*/
+button{
+    border-radius: 40px;
+    padding: 10px;
+    font-family: var(--lexend);
 }
