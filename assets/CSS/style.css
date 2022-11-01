@@ -40,17 +40,60 @@ main{
 /*H1*/
 h1{
     font-family: var(--bigshoulder);
+    color: var(--verylightgrey);
 }
 
 /*p*/
 p{
     font-family: var(--lexend);
-    font-size: 15px;
+    font-size: 12px;
+    text-align: left;
+    line-height: 1.5em;
+    color: var(--transparentwhite);
 }
 
 /*button*/
 button{
+    background-color: var(--verylightgrey);
+    border: none;
     border-radius: 40px;
     padding: 10px;
     font-family: var(--lexend);
+    text-align: center;
+    text-decoration: none;
+    display:flex; 
+    font-size: 8px;
+}
+
+/*col 1*/
+.col-1{
+    background-color: var(--brightorange);
+    color: #FFFFFF;
+    border-radius: 10px 0px 0px 10px;
+}
+
+/*col 2*/
+.col-2{
+    background-color: var(--darkcyan);
+    color: #FFFFFF;
+}
+
+/*col 3*/
+.col-3{
+    background-color: var(--verydarkcyan);
+    color: #FFFFFF;
+    border-radius: 0px 10px 10px 0px;
+}
+
+/*Button styling*/
+.btn_1{
+    color: var(--brightorange);
+}
+
+.btn_2{
+    color: var(--darkcyan);
+}
+
+.btn_3{
+    color: var(--verydarkcyan);
 }
